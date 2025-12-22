@@ -1,0 +1,21 @@
+html, body {
+	font-size: 16px;
+}
+
+body {
+	font-size: 1rem;
+	font-family: $font-family;
+    -webkit-font-smoothing: antialiased;
+    color: $color-gray-100;
+	background-color: $color-primary-bg;
+}
+
+.container {
+	@media (max-width: $media-max-phone) {
+		--bs-gutter-x: 18px;
+	}
+}
+
+.text-primary {
+	color: $color-primary !important;
+}

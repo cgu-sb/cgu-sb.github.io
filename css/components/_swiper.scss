@@ -1,0 +1,25 @@
+.swiper-button-prev,
+.swiper-button-next {
+	width: 3.75rem;
+	height: 3.75rem;
+	// old icon
+	svg {
+		display: none;
+	}
+	// new icon
+	&::after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-image: url('../images/slide-next.svg');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+.swiper-button-prev {
+	&::after {
+		transform: scaleX(-1);
+	}
+}

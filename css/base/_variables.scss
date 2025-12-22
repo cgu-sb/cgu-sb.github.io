@@ -1,0 +1,37 @@
+// breakpoint
+$media-max-size: 1920px;
+$media-max-web: 1600px;
+$media-min-web: $media-max-web + 1;
+$media-max-web-content: 1400px;
+$media-min-web-content: $media-max-web-content + 1;
+$media-max-pad-content: 1280px;
+$media-min-pad-content: $media-max-pad-content + 1;
+$media-max-pad: 991px;
+$media-min-pad: $media-max-pad + 1;
+$media-max-phone: 640px;
+$media-min-phone: $media-max-phone + 1;
+$media-max-phone-min: 375px;
+$media-min-phone-min: $media-max-phone-min + 1;
+
+
+// font
+$font-noto-sans-tc: "Noto Sans TC";
+$font-open-sans: "Open Sans";
+$font-family: $font-open-sans, $font-noto-sans-tc, "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+
+
+// color
+$color-primary: #F19021;
+$color-secondary: #1D458A;
+$color-third: #62799B;
+$color-fourth: #67B4DE;
+$color-fifth: #CFF4FF;
+$color-border: #41C8DD;
+
+$color-primary-bg: #082652;
+$color-secondary-bg: #6CC3D0;
+$color-third-bg: #E9F1F6;
+
+$color-gray-20: #DBDBDB;
+$color-gray-90: #1C1C1C;
+$color-gray-100: #000000;

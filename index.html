@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>長庚EMBA</title>
+
+	<!-- favicon -->
+	<link rel="icon" href="./images/favicon.ico" />
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400..900&family=Open+Sans:ital,wght@0,400..800;1,300..800&display=swap" rel="stylesheet">
+
+	<!-- plugin: bootstrap 5.1.3 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- plugin: AOS -->
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+	<!-- plugin: swiper 12 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+	<!-- custom: style.css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<!-- main nav -->
+		<nav id="js-main-nav" class="main-nav">
+			<div class="nav-left">
+				<a href="#" class="logo-wrap">
+					<img src="./images/cgu-emba_logo.png" alt="長庚大學LOGO">
+				</a>
+			</div>
+			<div class="nav-right">
+				<!-- menu -->
+				<div class="nav-menu-wrap">
+					<a href="https://www4.is.cgu.edu.tw/enrolladm/enroll/CEXAM.aspx" target="_blank" class="btn btn-primary icon-style letter-icon"><span>立即報名</span></a>
+					<ul class="menu-list">
+						<li class="list-item">
+							<a href="#teacher" class="link link-secondary icon-style teacher-icon">頂尖師資</a>
+						</li>
+						<li class="list-item">
+							<a href="#course" class="link link-secondary icon-style course-icon">核心課程</a>
+						</li>
+						<li class="list-item">
+							<a href="https://www.cgu.edu.tw/cm-sb/ServerFile/GetByKindEditor/fef17849-8079-414a-8b2e-041f56d0d210?subjectId=32&source=SubjectAdditionalInfo" target="_blank" class="link link-secondary icon-style download-icon">下載簡章</a>
+						</li>
+					</ul>
+				</div>
+				<!-- mobile only: menu btn -->
+				<div class="nav-btns-wrap">
+					<button type="button" class="nav-menu-btn"><span></span><span></span><span></span></button>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<!-- section: hero -->
+			<section class="section-wrap hero-section cap-bottom">
+				<div class="container">
+					<div class="section-inner">
+						<div class="text-wrap">
+							<h1 class="section-title">
+								<span class="title-main">全台首創</span>
+								<span class="title-sub">
+									<span class="text-primary">AI</span>
+									<span> EMBA</span>
+								</span>
+							</h1>
+							<h2 class="section-sub-title">AI 賦能 順勢致勝</h2>
+						</div>
+						<div class="image-wrap">
+							<img src="./images/hero-img.png" alt="站在書上的學者">
+						</div>
+					</div>
+				</div>
+				<!-- pc only -->
+				<div class="scroll-down">
+					<div class="scroll-down-inner">
+						<div class="mouse"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- section: about -->
+			<section class="section-wrap about-section">
+				<div class="container">
+					<div class="section-inner">
+						<h2 class="section-title"><span class="text-primary">AI</span> EMBA 特色</h2>
+					</div>
+				</div>
+
+				<!-- feature slide -->
+				<div class="feature-slide-wrap">
+					<!-- Swiper -->
+					<div id="featureSwiper" class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="image-wrap">
+										<img src="./images/feature-03.jpg" alt="領先兩岸三地_B">
+									</div>
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894#tag237208" target="_blank" class="btn btn-primary"><span>了解更多</span></a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="image-wrap">
+										<img src="./images/feature-01.jpg" alt="校長領軍頂尖師資_B">
+									</div>
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894#tag237208" target="_blank" class="btn btn-primary"><span>了解更多</span></a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="feature-card">
+									<div class="image-wrap">
+										<img src="./images/feature-02.jpg" alt="最新AI教學模式">
+									</div>
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894#tag237208" target="_blank" class="btn btn-primary"><span>了解更多</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 暫時隱藏 -->
+				<!-- <div id="video" class="teacher-video-wrap">
+					<div class="container">
+						<div class="section-inner">
+							<h2 class="section-title">師資推薦解說</h2>
+						</div>
+					</div>
+					<div class="video-slide-wrap">
+						<div id="videoSwiper" class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="video-card">
+										<div class="video-container">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/KPY-7fh_Muc?si=w_seHkNniOZ_J7qQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="video-card">
+										<div class="video-container">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/KPY-7fh_Muc?si=w_seHkNniOZ_J7qQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="video-card">
+										<div class="video-container">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/KPY-7fh_Muc?si=w_seHkNniOZ_J7qQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+				</div> -->
+			</section>
+
+			<!-- section: teacher -->
+			<section id="teacher" class="section-wrap teacher-section cap-top">
+				<div class="container">
+					<div class="section-inner">
+						<div class="section-header">
+							<h2 class="section-title">
+								<span class="title-main"><span class="text-primary">AI</span> EMBA </span>
+								<span>師資陣容</span>
+							</h2>
+							<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894#tag237208" target="_blank" class="btn btn-primary icon-style teacher-icon"><span>了解頂尖師資</span></a>
+						</div>
+						
+						<div class="teachers-wrap">
+							<div class="teacher-card">
+								<div class="teacher-photo">
+									<div class="image-wrap">
+										<img src="./images/teacher-01.png" alt="湯明哲 校長">
+									</div>
+									<h3 class="teacher-name">湯明哲 校長</h3>
+								</div>
+								<div class="text-wrap">
+									<div class="teacher-role">長庚大學 <span class="text-primary">校長</span></div>
+									<div class="teacher-intro">
+										<div class="teacher-des">
+											<p>身為台灣EMBA的創始人，在長庚大學聚集一批前台大與政大名師，為台灣管理教育帶來再次的革命。</p>
+											<p>如今，他選擇在長庚大學發起第二次管理教育革命，整合前國立臺灣大學與國立政治大學的管理教育名師資源共同打造 AI 導向的 EMBA 課程。</p>
+										</div>
+										<blockquote class="teacher-motto">
+											第一次創辦 EMBA，是讓管理能學<br>
+											第二次發起 <span class="text-primary">AI</span> EMBA，是讓管理能變。
+										</blockquote>
+									</div>
+								</div>
+							</div>
+							<div class="teacher-card pc-reverse-style">
+								<div class="teacher-photo">
+									<div class="image-wrap">
+										<img src="./images/teacher-02.png" alt="劉順仁 教授">
+									</div>
+									<h3 class="teacher-name">劉順仁 教授</h3>
+								</div>
+								<div class="text-wrap">
+									<div class="teacher-role">商管專業學院 <span class="text-primary">執行長</span></div>
+									<div class="teacher-intro">
+										<div class="teacher-des">
+											<p>說明全台首創 AI EMBA 的教學理念，並為台灣培育高階 AI 管理人才，再造企業效率與成長。</p>
+											<p>課程的終極目標，是為台灣培養 高階 AI 管理人才，讓企業不只運用 AI 提升效率，也能從 AI 驅動企業成長與競爭策略。</p>
+										</div>
+										<blockquote class="teacher-motto">
+											為台灣培育高階 <span class="text-primary">AI</span> 管理人才，再造企業效率與成長
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- section: course -->
+			<section id="course" class="section-wrap course-section">
+				<div class="container">
+					<div class="section-inner">
+						<div class="section-header header-center">
+							<h2 class="section-title">
+								<span class="title-main"><span class="text-primary">AI</span> EMBA </span>
+								<span>核心課程介紹</span>
+							</h2>
+							<h3 class="section-sub-title">
+								智慧 × 策略 × AI
+								<span class="pc-only">，</span><br class="mobile-only">
+								打造新世代跨領域人才
+							</h3>
+							<!-- 暫時隱藏 -->
+							<!-- <div class="btns-wrap">
+								<a href="#video" class="btn btn-primary icon-style teacher-icon"><span>了解更多課程</span></a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+
+				<!-- course -->
+				<div class="course-slide-wrap">
+					<!-- Swiper -->
+					<div id="courseSwiper" class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-01.jpg" alt="課程_商業運用+AI">
+										</div>
+										<div class="text-wrap">
+											【AI For business】<br>邀請頂尖企業及專家，傳授AI在產業的實際運用及執行成果。
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-02.jpg" alt="課程_策略會計+AI">
+										</div>
+										<div class="text-wrap">
+											【AI For Accounting】<br>AI協作會計財報結合管理，並以AI探索企業重大經營議題。
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-03.jpg" alt="課程_行銷創新+AI">
+										</div>
+										<div class="text-wrap">
+											【AI For Marketing】
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-04.jpg" alt="課程_【決策管理+AI】">
+										</div>
+										<div class="text-wrap">
+											【AI For Decision Making】
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-05.jpg" alt="課程_財務金融+AI">
+										</div>
+										<div class="text-wrap">
+											【AI For Finance】
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="course-card">
+									<a href="https://www.cgu.edu.tw/cm-sb/Subject?nodeId=3894" target="_blank" class="course-link">
+										<div class="image-wrap">
+											<img src="./images/course-06.jpg" alt="課程_策略思維+AI">
+										</div>
+										<div class="text-wrap">
+											【AI for Strategy】
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</section>
+
+			<!-- section: cta -->
+			<section class="section-wrap cta-section cap-bottom">
+				<div class="container">
+					<div class="section-inner">
+						<div class="section-slogan">Unlock Your Potential</div>
+						<h2 class="section-title">
+							<span>立即加入長庚 <span class="text-primary">AI</span> EMBA </span>
+							<span>順勢致勝</span>
+						</h2>
+						<div class="target-wrap">
+							<div class="target-body">
+								<div class="text-wrap">
+									<h3 class="target-title">招生對象</h3>
+									<ul class="check-list">
+										<li class="list-item">
+											歡迎追求 AI 時代競爭優勢的年輕經理人<br>
+											成為推動台灣企業AI轉型的中堅幹部
+										</li>
+									</ul>
+								</div>
+								<div class="image-wrap">
+									<img src="./images/dance-people.png" alt="跳舞的人">
+								</div>
+							</div>
+							<div class="target-bottom">
+								<a href="https://www4.is.cgu.edu.tw/enrolladm/enroll/CEXAM.aspx" target="_blank" class="btn btn-primary btn-lg icon-style letter-icon"><span>立即報名</span></a>
+								<a href="https://www.cgu.edu.tw/cm-sb/ServerFile/GetByKindEditor/fef17849-8079-414a-8b2e-041f56d0d210?subjectId=32&source=SubjectAdditionalInfo" target="_blank" class="btn btn-secondary icon-style download-icon">下載簡章</a>
+							</div>
+						</div>
+						<div class="logos-wrap">
+							<div class="image-wrap">
+								<!-- logo 客戶還在處理，之後替換 -->
+								<img src="./images/cgu-emba_logo.png" alt="長庚大學EMBA LOGO">
+							</div>
+							<div class="image-wrap">
+								<img src="./images/cgu_logo.png" alt="長庚大學 LOGO">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		
+		<!-- footer -->
+		<footer class="footer-wrap">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer-contact">
+						教務處招生組 03-2118800 #3370<br>
+						EMBA 辦公室 03-2118600｜03-2118800 #3249｜#3252
+					</div>
+					<div class="footer-copyright">
+						© COPYRIGHT 2025 - 長庚大學商管專業學院. ALL RIGHTS RESERVED
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<!-- plugin: jquery 3.7.1 -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+	<!-- plugin: AOS -->
+	<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+	<!-- plugin: swiper 12 -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+	<!-- custom: main.js -->
+	<script src="js/main.js"></script>
+</body>
+</html>

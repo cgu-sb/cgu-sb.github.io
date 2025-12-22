@@ -1,0 +1,26 @@
+.check-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	.list-item {
+		display: flex;
+		gap: 0.75rem;
+		padding-left: 0.4375rem;
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.625;
+		color: #FFF;
+		// icon
+		&::before {
+			content: '';
+			width: 0.875rem;
+			height: 0.875rem;
+			transform: translateY(0.5rem);
+			display: block;
+			background-image: url('../images/icon/check.svg');
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	}
+}

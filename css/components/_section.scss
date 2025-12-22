@@ -1,0 +1,115 @@
+.section-wrap {
+	
+	&.cap-top,
+	&.cap-bottom {
+		position: relative;
+		// left
+		&::before {
+			left: 0;
+			clip-path: polygon(0% 0%, 92% 0%, 100% 100%, 0% 100%);
+		}
+		// right
+		&::after {
+			right: 0;
+			clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
+		}
+		&::before,
+		&::after {
+			content: '';
+			display: block;
+			width: 17.5vw;
+			height: 1.5rem;
+			background-color: $color-primary-bg;
+			position: absolute;
+			z-index: 200;
+			transition: .3s;
+			@media (max-width:$media-max-phone) {
+				width: 26vw;
+			}
+		}
+	}
+	&.cap-top {
+		border-top: 1.875rem solid $color-primary-bg;
+		&::before,
+		&::after {
+			top: 0;
+			transform: scaleY(-1);
+		}
+	}
+	&.cap-bottom {
+		border-bottom: 1.875rem solid $color-primary-bg;
+		&::before,
+		&::after {
+			bottom: 0;
+		}
+	}
+
+	.section-inner {
+		
+	}
+
+	.section-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.75rem;
+		@media (max-width: $media-max-phone) {
+			flex-direction: column;
+		}
+
+		&.header-center {
+			position: relative;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			gap: 0;
+			.btns-wrap {
+				@media (min-width: $media-min-pad-content) {
+					right: 5%;
+				}
+				@media (min-width: $media-min-pad) {
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+				@media (max-width: $media-max-pad) {
+					margin: 0 0 1.875rem; 
+				}
+			}
+		}
+	}
+	.section-title {
+		font-size: 2.5rem;
+		font-weight: 500;
+		line-height: 1.35;
+		.title-main {
+			font-weight: 700;
+		}
+		@media (max-width: $media-max-phone) {
+			font-size: 2rem;
+		}
+	}
+	.section-sub-title {
+		font-size: 1.25rem;
+		font-weight: 400;
+		letter-spacing: 0.02em;
+		line-height: 1.6;
+		@media (max-width: $media-max-phone) {
+			font-size: 1.125rem;
+		}
+	}
+	// .section-des {
+	// 	font-size: 1.0625rem;
+	// 	font-weight: 400;
+	// 	line-height: 1.24;
+	// }
+	.section-slogan {
+		font-size: 1.5rem;
+		font-weight: 700;
+		letter-spacing: 0.02em;
+		letter-spacing: 0.02em;
+		line-height: 1;
+	}
+}
